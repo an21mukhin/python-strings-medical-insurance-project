@@ -70,4 +70,4 @@ for i in range(len(names)):
   age = ages[i]
   bmi = bmis[i]
   cost = insurance_costs[i]
-  print(name + " is " + age + " year old with a BMI of " + bmi + " and an insurance cost of " + cost +"\n")
+  print(name.strip('\n ').split(' ')[0].title() + " is " + age + " year old with a BMI of " + bmi + " and an insurance cost of " + cost +"\n")
